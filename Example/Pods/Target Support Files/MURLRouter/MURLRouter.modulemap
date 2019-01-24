@@ -1,0 +1,6 @@
+framework module MURLRouter {
+  umbrella header "MURLRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

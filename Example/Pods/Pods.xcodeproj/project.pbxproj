@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F87B47FE409752A54B343C09E1E3EB4 /* PPURLMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8E68C6AC2B78D9740C506FB88D12 /* PPURLMapper.m */; };
+		1116BF573C2DAD440D227CC3C94A9613 /* Pods-MURLRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D31495AAB6A51C2140E6663DE030E330 /* Pods-MURLRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DD3AC209D0979968A495F47C7DBFB44 /* PPURLRouter+NSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 94769E04B9B0DBEF4EA4B2946352D0B2 /* PPURLRouter+NSObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		468E3E229BA67D36DFB4ED3391E3A481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		51A0266CD549B702D8E93783A3F7485A /* PPURLActions.h in Headers */ = {isa = PBXBuildFile; fileRef = A74298DF2D186202EF3F804347D9D2AF /* PPURLActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54CA81275CB05F08533834BD4C4D5293 /* PPURLRouter+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6856C78723CCBAD2E3145620A486B787 /* PPURLRouter+NSString.m */; };
+		669E72B9D146CF175ED736DB5FD941CC /* Pods-MURLRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 012759656B852438C0E3058B42EA1123 /* Pods-MURLRouter_Example-dummy.m */; };
+		711DC7524FE0EF518D4ECC50AF5DAA10 /* PPURLSelectors.h in Headers */ = {isa = PBXBuildFile; fileRef = 94AD66299DF478310672E597DF8C7EB1 /* PPURLSelectors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73A7849D7B04A08C302B155A31F7E6E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		84DAD3CAB48C19198E26D19C2D8EB95C /* PPURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A2E868BBF82032E534038C8A49F134 /* PPURLRouter.m */; };
+		89829DA38A2E42790CD727FA4C5C5BC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9C84AAA150EA0DCE75E62BC8600F0045 /* Pods-MURLRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A72E0C56E249D5AFE776C7DE0787B63E /* Pods-MURLRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2E3A5785C974B81849DAB3065720651 /* MURLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E03BE245DD9E840D8622EC48142A20 /* MURLRouter-dummy.m */; };
+		D84ADD645E92C628AD041D5E65B9EF76 /* Pods-MURLRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA78BE6ADBD2BA073E7376C7BBA7691 /* Pods-MURLRouter_Tests-dummy.m */; };
+		D957CC7F7B724A786193FEDC064CD49B /* MURLRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DD761C2283CA9CF3B4ED873B5AE368 /* MURLRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA930DC054BAA1D0CBD08DEC49A3E531 /* PPURLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 242AF48CF21B3543732C658BC3DC33C9 /* PPURLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E62777018021FB7B244AA726DFE49F18 /* PPURLRouter+NSString.h in Headers */ = {isa = PBXBuildFile; fileRef = 212D152E45F122D78035A1543430B340 /* PPURLRouter+NSString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E4C9E2FD6F6B214FFC31E2A38F5166 /* PPURLRouter+NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E4CCCFE78E2D502E7361DFA4B23072 /* PPURLRouter+NSObject.m */; };
+		EDA61388F089335AC55FBAFAE4486E84 /* PPURLMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 547C868960AF7DCD7F8A5714EDB5BD0F /* PPURLMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16EF38A934395524E4A3FAAA2A24D6D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B576600259628B8FD9C5B6322B130814;
+			remoteInfo = MURLRouter;
+		};
+		B70CC6605DE11CE0D5FE8F50DD2AC7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4C96D9F8E3635E8E70AB338933E8464;
+			remoteInfo = "Pods-MURLRouter_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012759656B852438C0E3058B42EA1123 /* Pods-MURLRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MURLRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		01DD761C2283CA9CF3B4ED873B5AE368 /* MURLRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MURLRouter-umbrella.h"; sourceTree = "<group>"; };
+		0F23C691ED267C7D86779C14C97A1FB9 /* Pods-MURLRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MURLRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		12C99D276E20E83AA4ACD833EA5CF2D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212D152E45F122D78035A1543430B340 /* PPURLRouter+NSString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PPURLRouter+NSString.h"; path = "MURLRouter/Classes/PPURLRouter+NSString.h"; sourceTree = "<group>"; };
+		242AF48CF21B3543732C658BC3DC33C9 /* PPURLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPURLRouter.h; path = MURLRouter/Classes/PPURLRouter.h; sourceTree = "<group>"; };
+		2B60DB1979B6D28A424B5B115902E0F0 /* Pods-MURLRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MURLRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31E4CCCFE78E2D502E7361DFA4B23072 /* PPURLRouter+NSObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PPURLRouter+NSObject.m"; path = "MURLRouter/Classes/PPURLRouter+NSObject.m"; sourceTree = "<group>"; };
+		3D6820862ED41FF2C6228F0039767CED /* MURLRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MURLRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		415F3F2688EE5796FFFF67C090B4E77B /* Pods_MURLRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MURLRouter_Example.framework; path = "Pods-MURLRouter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41764F72CA5CCB1B564B31360DC0C446 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4358FEDAECE30E106271498F3B34042D /* Pods-MURLRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MURLRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		46E03BE245DD9E840D8622EC48142A20 /* MURLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MURLRouter-dummy.m"; sourceTree = "<group>"; };
+		4BFE8E68C6AC2B78D9740C506FB88D12 /* PPURLMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPURLMapper.m; path = MURLRouter/Classes/PPURLMapper.m; sourceTree = "<group>"; };
+		4D2CC5BE62C22CBCA66D9EB16301B2E7 /* Pods_MURLRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MURLRouter_Tests.framework; path = "Pods-MURLRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		547C868960AF7DCD7F8A5714EDB5BD0F /* PPURLMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPURLMapper.h; path = MURLRouter/Classes/PPURLMapper.h; sourceTree = "<group>"; };
+		556289820F35BEC7FB626F05A0D22722 /* Pods-MURLRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MURLRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6856C78723CCBAD2E3145620A486B787 /* PPURLRouter+NSString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PPURLRouter+NSString.m"; path = "MURLRouter/Classes/PPURLRouter+NSString.m"; sourceTree = "<group>"; };
+		7089FC75CFC73F2712F2CFBA13B75AC2 /* MURLRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MURLRouter.modulemap; sourceTree = "<group>"; };
+		748A5DEF45F3CCCE95C3535399DEAA83 /* Pods-MURLRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MURLRouter_Tests.modulemap"; sourceTree = "<group>"; };
+		7B4C9BAF1F40D567A850FD5173D3765F /* Pods-MURLRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MURLRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		80A2E868BBF82032E534038C8A49F134 /* PPURLRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPURLRouter.m; path = MURLRouter/Classes/PPURLRouter.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94769E04B9B0DBEF4EA4B2946352D0B2 /* PPURLRouter+NSObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PPURLRouter+NSObject.h"; path = "MURLRouter/Classes/PPURLRouter+NSObject.h"; sourceTree = "<group>"; };
+		94AD66299DF478310672E597DF8C7EB1 /* PPURLSelectors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPURLSelectors.h; path = MURLRouter/Classes/PPURLSelectors.h; sourceTree = "<group>"; };
+		A2721682CDE178D95BC75263C41D2F3B /* Pods-MURLRouter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MURLRouter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A72E0C56E249D5AFE776C7DE0787B63E /* Pods-MURLRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MURLRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A74298DF2D186202EF3F804347D9D2AF /* PPURLActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPURLActions.h; path = MURLRouter/Classes/PPURLActions.h; sourceTree = "<group>"; };
+		ACA78BE6ADBD2BA073E7376C7BBA7691 /* Pods-MURLRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MURLRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		ADF2E000DDC14B3EBACD2C5A0C5AA83F /* MURLRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MURLRouter-prefix.pch"; sourceTree = "<group>"; };
+		B8581B8018AF7A0C9D223EA885F6C4D3 /* Pods-MURLRouter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MURLRouter_Tests-resources.sh"; sourceTree = "<group>"; };
+		BCBA2BA2C911907C9B79BBCE17C98BF6 /* Pods-MURLRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MURLRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7AC2056567B24695DFD52D5B0FA265A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D1107F36188BC2C325A2E6F23FBAAE50 /* Pods-MURLRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MURLRouter_Example.modulemap"; sourceTree = "<group>"; };
+		D16886160B80E6BA0DF5137A5AEDC640 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31495AAB6A51C2140E6663DE030E330 /* Pods-MURLRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MURLRouter_Example-umbrella.h"; sourceTree = "<group>"; };
+		DC0312B7E68457F515C16F33495D1201 /* MURLRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MURLRouter.framework; path = MURLRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE118EC52F42C87FAF1488EA6B566DED /* MURLRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MURLRouter.xcconfig; sourceTree = "<group>"; };
+		E470BF10D80F78EFFE880BEFC4B74CA6 /* Pods-MURLRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MURLRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E699604545E2AEFC57D34449C330D6F6 /* Pods-MURLRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MURLRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE7230EDA80649C4C78A25BF6BB246DD /* Pods-MURLRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MURLRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F7FBD6EB4E57DE2EA73513258CEDD49A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F902AD04A0F80964CBE09AAECEB68D5C /* Pods-MURLRouter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MURLRouter_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		608BD8F4E4B18A06D0E9C8F8779F6C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468E3E229BA67D36DFB4ED3391E3A481 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455AB56303DFE8CB4D7FA285C7CD270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A7849D7B04A08C302B155A31F7E6E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FA5278B91424F52F80296236230FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89829DA38A2E42790CD727FA4C5C5BC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B22068CB131A9FC729841A01B41ACA5 /* MURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				A74298DF2D186202EF3F804347D9D2AF /* PPURLActions.h */,
+				547C868960AF7DCD7F8A5714EDB5BD0F /* PPURLMapper.h */,
+				4BFE8E68C6AC2B78D9740C506FB88D12 /* PPURLMapper.m */,
+				242AF48CF21B3543732C658BC3DC33C9 /* PPURLRouter.h */,
+				80A2E868BBF82032E534038C8A49F134 /* PPURLRouter.m */,
+				94769E04B9B0DBEF4EA4B2946352D0B2 /* PPURLRouter+NSObject.h */,
+				31E4CCCFE78E2D502E7361DFA4B23072 /* PPURLRouter+NSObject.m */,
+				212D152E45F122D78035A1543430B340 /* PPURLRouter+NSString.h */,
+				6856C78723CCBAD2E3145620A486B787 /* PPURLRouter+NSString.m */,
+				94AD66299DF478310672E597DF8C7EB1 /* PPURLSelectors.h */,
+				8B8E6C3E4C18642E3537AF91C2F410B4 /* Pod */,
+				E2E9D064CF317BBC328F32A62BE2835D /* Support Files */,
+			);
+			name = MURLRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E207588F68EAD5B4C8B1B5A2E8DEEE65 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E5B795792E6B1C544D3513EBA0024FD8 /* Products */,
+				B25D2C6056B0AC2A3C78D3AB2515D937 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B8E6C3E4C18642E3537AF91C2F410B4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7AC2056567B24695DFD52D5B0FA265A /* LICENSE */,
+				3D6820862ED41FF2C6228F0039767CED /* MURLRouter.podspec */,
+				F7FBD6EB4E57DE2EA73513258CEDD49A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A8D038932F1E28F84A758D708B77E351 /* Pods-MURLRouter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D16886160B80E6BA0DF5137A5AEDC640 /* Info.plist */,
+				D1107F36188BC2C325A2E6F23FBAAE50 /* Pods-MURLRouter_Example.modulemap */,
+				BCBA2BA2C911907C9B79BBCE17C98BF6 /* Pods-MURLRouter_Example-acknowledgements.markdown */,
+				7B4C9BAF1F40D567A850FD5173D3765F /* Pods-MURLRouter_Example-acknowledgements.plist */,
+				012759656B852438C0E3058B42EA1123 /* Pods-MURLRouter_Example-dummy.m */,
+				0F23C691ED267C7D86779C14C97A1FB9 /* Pods-MURLRouter_Example-frameworks.sh */,
+				F902AD04A0F80964CBE09AAECEB68D5C /* Pods-MURLRouter_Example-resources.sh */,
+				D31495AAB6A51C2140E6663DE030E330 /* Pods-MURLRouter_Example-umbrella.h */,
+				EE7230EDA80649C4C78A25BF6BB246DD /* Pods-MURLRouter_Example.debug.xcconfig */,
+				E470BF10D80F78EFFE880BEFC4B74CA6 /* Pods-MURLRouter_Example.release.xcconfig */,
+			);
+			name = "Pods-MURLRouter_Example";
+			path = "Target Support Files/Pods-MURLRouter_Example";
+			sourceTree = "<group>";
+		};
+		B25D2C6056B0AC2A3C78D3AB2515D937 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8D038932F1E28F84A758D708B77E351 /* Pods-MURLRouter_Example */,
+				BDCE2B0CEDC35C166FE1C33B20BD3521 /* Pods-MURLRouter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDCE2B0CEDC35C166FE1C33B20BD3521 /* Pods-MURLRouter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				12C99D276E20E83AA4ACD833EA5CF2D6 /* Info.plist */,
+				748A5DEF45F3CCCE95C3535399DEAA83 /* Pods-MURLRouter_Tests.modulemap */,
+				2B60DB1979B6D28A424B5B115902E0F0 /* Pods-MURLRouter_Tests-acknowledgements.markdown */,
+				E699604545E2AEFC57D34449C330D6F6 /* Pods-MURLRouter_Tests-acknowledgements.plist */,
+				ACA78BE6ADBD2BA073E7376C7BBA7691 /* Pods-MURLRouter_Tests-dummy.m */,
+				A2721682CDE178D95BC75263C41D2F3B /* Pods-MURLRouter_Tests-frameworks.sh */,
+				B8581B8018AF7A0C9D223EA885F6C4D3 /* Pods-MURLRouter_Tests-resources.sh */,
+				A72E0C56E249D5AFE776C7DE0787B63E /* Pods-MURLRouter_Tests-umbrella.h */,
+				4358FEDAECE30E106271498F3B34042D /* Pods-MURLRouter_Tests.debug.xcconfig */,
+				556289820F35BEC7FB626F05A0D22722 /* Pods-MURLRouter_Tests.release.xcconfig */,
+			);
+			name = "Pods-MURLRouter_Tests";
+			path = "Target Support Files/Pods-MURLRouter_Tests";
+			sourceTree = "<group>";
+		};
+		E207588F68EAD5B4C8B1B5A2E8DEEE65 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B22068CB131A9FC729841A01B41ACA5 /* MURLRouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E2E9D064CF317BBC328F32A62BE2835D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41764F72CA5CCB1B564B31360DC0C446 /* Info.plist */,
+				7089FC75CFC73F2712F2CFBA13B75AC2 /* MURLRouter.modulemap */,
+				DE118EC52F42C87FAF1488EA6B566DED /* MURLRouter.xcconfig */,
+				46E03BE245DD9E840D8622EC48142A20 /* MURLRouter-dummy.m */,
+				ADF2E000DDC14B3EBACD2C5A0C5AA83F /* MURLRouter-prefix.pch */,
+				01DD761C2283CA9CF3B4ED873B5AE368 /* MURLRouter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MURLRouter";
+			sourceTree = "<group>";
+		};
+		E5B795792E6B1C544D3513EBA0024FD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC0312B7E68457F515C16F33495D1201 /* MURLRouter.framework */,
+				415F3F2688EE5796FFFF67C090B4E77B /* Pods_MURLRouter_Example.framework */,
+				4D2CC5BE62C22CBCA66D9EB16301B2E7 /* Pods_MURLRouter_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A78453B1D78B1B45B791F6B6B564500 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1116BF573C2DAD440D227CC3C94A9613 /* Pods-MURLRouter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE853D98CD767D48F7BDAC869C6F665 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D957CC7F7B724A786193FEDC064CD49B /* MURLRouter-umbrella.h in Headers */,
+				51A0266CD549B702D8E93783A3F7485A /* PPURLActions.h in Headers */,
+				EDA61388F089335AC55FBAFAE4486E84 /* PPURLMapper.h in Headers */,
+				3DD3AC209D0979968A495F47C7DBFB44 /* PPURLRouter+NSObject.h in Headers */,
+				E62777018021FB7B244AA726DFE49F18 /* PPURLRouter+NSString.h in Headers */,
+				DA930DC054BAA1D0CBD08DEC49A3E531 /* PPURLRouter.h in Headers */,
+				711DC7524FE0EF518D4ECC50AF5DAA10 /* PPURLSelectors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF55C2E4F19955770DE2D5A52261AD83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C84AAA150EA0DCE75E62BC8600F0045 /* Pods-MURLRouter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49C2863C0A8D111EE3BEBC99A5C8A7AD /* Pods-MURLRouter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1077C0C4040BC2DDFAD669BA331F5F56 /* Build configuration list for PBXNativeTarget "Pods-MURLRouter_Tests" */;
+			buildPhases = (
+				CACD51B6EF7C23588E8310CA02B05F22 /* Sources */,
+				608BD8F4E4B18A06D0E9C8F8779F6C46 /* Frameworks */,
+				BF55C2E4F19955770DE2D5A52261AD83 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				319665B1BFE6DC332BFCB0585275863A /* PBXTargetDependency */,
+			);
+			name = "Pods-MURLRouter_Tests";
+			productName = "Pods-MURLRouter_Tests";
+			productReference = 4D2CC5BE62C22CBCA66D9EB16301B2E7 /* Pods_MURLRouter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4C96D9F8E3635E8E70AB338933E8464 /* Pods-MURLRouter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED66F58BE7BE649ABBCE547B1BEA9135 /* Build configuration list for PBXNativeTarget "Pods-MURLRouter_Example" */;
+			buildPhases = (
+				2313D27D9CC6E959C32DE0698E39EDB3 /* Sources */,
+				E81FA5278B91424F52F80296236230FA /* Frameworks */,
+				5A78453B1D78B1B45B791F6B6B564500 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8FE3E1818EF10441D6D4A75F2F51BC /* PBXTargetDependency */,
+			);
+			name = "Pods-MURLRouter_Example";
+			productName = "Pods-MURLRouter_Example";
+			productReference = 415F3F2688EE5796FFFF67C090B4E77B /* Pods_MURLRouter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B576600259628B8FD9C5B6322B130814 /* MURLRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF683ADEB07EC92D92AB9F1DEEDA6DEC /* Build configuration list for PBXNativeTarget "MURLRouter" */;
+			buildPhases = (
+				41DADE6D631105941821E680619AC8E6 /* Sources */,
+				8455AB56303DFE8CB4D7FA285C7CD270 /* Frameworks */,
+				8CE853D98CD767D48F7BDAC869C6F665 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MURLRouter;
+			productName = MURLRouter;
+			productReference = DC0312B7E68457F515C16F33495D1201 /* MURLRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E5B795792E6B1C544D3513EBA0024FD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B576600259628B8FD9C5B6322B130814 /* MURLRouter */,
+				A4C96D9F8E3635E8E70AB338933E8464 /* Pods-MURLRouter_Example */,
+				49C2863C0A8D111EE3BEBC99A5C8A7AD /* Pods-MURLRouter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2313D27D9CC6E959C32DE0698E39EDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669E72B9D146CF175ED736DB5FD941CC /* Pods-MURLRouter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DADE6D631105941821E680619AC8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E3A5785C974B81849DAB3065720651 /* MURLRouter-dummy.m in Sources */,
+				0F87B47FE409752A54B343C09E1E3EB4 /* PPURLMapper.m in Sources */,
+				E6E4C9E2FD6F6B214FFC31E2A38F5166 /* PPURLRouter+NSObject.m in Sources */,
+				54CA81275CB05F08533834BD4C4D5293 /* PPURLRouter+NSString.m in Sources */,
+				84DAD3CAB48C19198E26D19C2D8EB95C /* PPURLRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACD51B6EF7C23588E8310CA02B05F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84ADD645E92C628AD041D5E65B9EF76 /* Pods-MURLRouter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		319665B1BFE6DC332BFCB0585275863A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MURLRouter_Example";
+			target = A4C96D9F8E3635E8E70AB338933E8464 /* Pods-MURLRouter_Example */;
+			targetProxy = B70CC6605DE11CE0D5FE8F50DD2AC7D8 /* PBXContainerItemProxy */;
+		};
+		AE8FE3E1818EF10441D6D4A75F2F51BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MURLRouter;
+			target = B576600259628B8FD9C5B6322B130814 /* MURLRouter */;
+			targetProxy = 16EF38A934395524E4A3FAAA2A24D6D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A28C145725A8CA71628C7EB963DBECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4358FEDAECE30E106271498F3B34042D /* Pods-MURLRouter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MURLRouter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MURLRouter_Tests/Pods-MURLRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F1F3BE6E2262B4BEFB7B568CD3E29FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E470BF10D80F78EFFE880BEFC4B74CA6 /* Pods-MURLRouter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MURLRouter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MURLRouter_Example/Pods-MURLRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D33897D49653AE50D4FB8B097873ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556289820F35BEC7FB626F05A0D22722 /* Pods-MURLRouter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MURLRouter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MURLRouter_Tests/Pods-MURLRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82A09C5BCABB90CCE10DFE543BEB33E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE118EC52F42C87FAF1488EA6B566DED /* MURLRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MURLRouter/MURLRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MURLRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MURLRouter/MURLRouter.modulemap";
+				PRODUCT_MODULE_NAME = MURLRouter;
+				PRODUCT_NAME = MURLRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C36D2DDFA962CE92FDE0241614D02AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE118EC52F42C87FAF1488EA6B566DED /* MURLRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MURLRouter/MURLRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MURLRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MURLRouter/MURLRouter.modulemap";
+				PRODUCT_MODULE_NAME = MURLRouter;
+				PRODUCT_NAME = MURLRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDEE69F0F39466D05FA75AD321A3C688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7230EDA80649C4C78A25BF6BB246DD /* Pods-MURLRouter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MURLRouter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MURLRouter_Example/Pods-MURLRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1077C0C4040BC2DDFAD669BA331F5F56 /* Build configuration list for PBXNativeTarget "Pods-MURLRouter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A28C145725A8CA71628C7EB963DBECF /* Debug */,
+				7D33897D49653AE50D4FB8B097873ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED66F58BE7BE649ABBCE547B1BEA9135 /* Build configuration list for PBXNativeTarget "Pods-MURLRouter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEE69F0F39466D05FA75AD321A3C688 /* Debug */,
+				2F1F3BE6E2262B4BEFB7B568CD3E29FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF683ADEB07EC92D92AB9F1DEEDA6DEC /* Build configuration list for PBXNativeTarget "MURLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A09C5BCABB90CCE10DFE543BEB33E6 /* Debug */,
+				9C36D2DDFA962CE92FDE0241614D02AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
